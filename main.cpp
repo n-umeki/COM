@@ -9,7 +9,7 @@
 int main(void){
   //OpenComPort();
 //  opencom.OpenComPort()
-  std::string OpenCom = "COM3";
+  std::string OpenCom = "COM1";
   RS232C COM1;
   COM1.test();
   COM1.OpenComPort(OpenCom);
